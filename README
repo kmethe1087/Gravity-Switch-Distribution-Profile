@@ -1,0 +1,7 @@
+This installation profile is set up to build the basic functionality that Gravity Switch, Inc builds in their basic Drupal installs. 
+
+This profile comes complete with additional modules, vocabularies, node types, and user roles. 
+Please download this distribution, add the files to your server, and then select the Gravity Switch installation
+profile when installing Drupal. The modules and functionality will be automatically enabled for you. 
+
+If you have questions, please contact Katie at -- katie@gravityswitch.com
