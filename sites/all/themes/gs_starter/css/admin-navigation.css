@@ -1,0 +1,75 @@
+/* =======  ADMIN BAR  ======= */
+/* =======  Gravity Switch Admin bar for adding client facing admin functions =======*/
+#admin-region {
+	clear: both;
+	background: #3a3126;
+	height: 26px;
+	line-height: 26px;
+	font-size: .693em;
+	z-index: 888;
+	position: relative;
+}
+#admin-region a:link, #admin-region a:visited {
+	font-weight: bold;
+	color: #fff;
+	padding: 0em 0em 0em 0.3em;
+	line-height: 26px;
+}
+#admin-region a:active, #admin-region a:hover {
+	text-decoration: none;
+}
+#admin-region ul ul, 
+#admin-region ul.nice-menu-down li.menuparent, 
+#admin-region ul.nice-menu-down li.menuparent:hover, 
+#admin-region ul.nice-menu-down li {
+	background: #3a3126;
+	border:none;
+}
+#admin-region ul ul, 
+#admin-region ul.nice-menu-down li li.menuparent, 
+#admin-region ul.nice-menu-down li li.menuparent:hover, 
+#admin-region ul.nice-menu-down li li {
+	background: #3a3126;
+}
+#admin-region .block {
+	margin-bottom: 0em;
+}
+#admin-region h2.title {
+	display: none;
+}
+#admin-region ul {
+	margin: 0em 0;
+	padding-left: 0em;
+}
+#admin-region ul li {
+	display: inline;
+	float: left;
+	padding-right: 2em;
+}
+#admin-region ul ul {
+	top: 26px;
+}
+#admin-region ul.nice-menu ul {
+	border-top: none;
+}
+#admin-region ul.nice-menu ul li {
+	width: 20em;
+}
+#admin-region ul a {
+	display: block;
+}
+#admin-region ul ul a {
+	padding-left: 0.3em	
+}
+#admin-region li.menu-path-gravityswitchcom {
+	padding-right: 0em;
+}
+#admin-region li.menu-path-gravityswitchcom a {
+	text-indent: -99999px;
+	display: block;
+	background: #3a3126 url('../images/gsadminlogo.jpg') no-repeat 50% 50%;
+	width: 40px;
+}
+#admin-region div.block.with-block-editing div.edit { /* so that the edit the block does not cover editor admin menu logout link */
+	top: 27px;
+}
